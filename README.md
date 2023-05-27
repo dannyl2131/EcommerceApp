@@ -13,5 +13,5 @@ If there are any additional questions, please email me at dannyl2131@gmail.com
 
 Here is a link to my Github profile if you'd like to check out any more of my work [github.com/dannyl2131](github.com/dannyl2131) 
 
-##License
+## License
 https://opensource.org/license/mit/      

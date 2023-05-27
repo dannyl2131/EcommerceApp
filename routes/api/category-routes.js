@@ -37,6 +37,7 @@ router.get('/:id', async (req, res) => {
 router.post('/',async (req, res) => {
   // create a new category
   try {
+    console.log(req);
     const newCategory = await Category.create(req.body);
     res.status(200).json(newCategory);
   }
@@ -66,7 +67,7 @@ router.delete('/:id', async (req, res) => {
       id: req.params.id
     }
   });
-    res.status(200).json(`${deleted} was deleted from the database`)
+    res.status(200).json(`Category ID ${req.params.id} was deleted from the database`)
   }
   catch (err) {
     res.status(500).json(err)
